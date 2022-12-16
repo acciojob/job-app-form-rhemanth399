@@ -13,27 +13,27 @@
 </script>
 <form class="sample" action="submit" method="post">
 	<label for="name">Name*</label><br>
-	<input type="text" id="name" placeholder="Name" ><br>
+	<input type="text" id="name" placeholder="Name" required><br>
 	<label for="email">Email*</label><br>
-	<input type="email" id="email" placeholder="Email" ><br>
+	<input type="email" id="email" placeholder="Email" required ><br>
 	<label for="gender">Gender*</label><br>
-	<input type="radio" name="gender" id="gender">
+	<input type="radio" name="gender" id="gender" required>
 	<label for="male" id="radio">Male</label>	
-	<input type="radio" name="gender" >
+	<input type="radio" name="gender" required >
 	<label for="female" id="radio">Female</label><br>
 	<label for="laptopbrands">Laptop Brands</label><br>
-	<select name="laptopbrands" id="laptopbrands" >
-		<option value="Apple" id="laptopbrands" >Apple</option>
-		<option value="Asus" id="laptopbrands">Asus</option>
-		<option value="HP" id="laptopbrands">HP</option>
+	<select name="laptopbrands" id="laptopbrands" required>
+		<option value="Apple"  required>Apple</option>
+		<option value="Asus" required>Asus</option>
+		<option value="HP" required>HP</option>
 
 	</select><br>
 	<label for="age">Age*</label><br>
-	<input type="number" id="age" ><br>
+	<input type="number" id="age" required><br>
 	<label for="date">Date*</label><br>
-	<input type="dob" id="dob"><br>
+	<input type="dob" id="dob" required><br>
 	<label for="password">Password*</label><br>
-	<input type="password" id="password" ><br><br>
+	<input type="password" id="password" required><br><br>
 	<button type="button" id="submit" >Submit</button><br>
 </form>
 </body>
